@@ -54,7 +54,7 @@ This is achieved with **additive secret sharing** and **Beaver triples**:
 Open 4 terminals and run the parties in the following order:
 
 1. **Start Party 0**  
-  ```bash
+   ```bash
    python3 p0.py
 2. **Start Party 1**
    ```bash
