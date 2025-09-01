@@ -48,7 +48,7 @@ Open **four terminal windows** (for P0, P1, P2, and P3).
 
 1. Start the servers in this order:
 
-  ```bash
+   ```bash
    # Terminal 1 (P0)
    python p0.py
 
@@ -60,14 +60,6 @@ Open **four terminal windows** (for P0, P1, P2, and P3).
 
    # Terminal 4 (Helper P2) — send Beaver triples
    python p2_helper.py
-
-
-Example Output
-[P3] x=234567, y=876543
-[P3] Sending shares: P0 -> (x0=..., y0=...), P1 -> (x1=..., y1=...)
-[P2] Beaver triple: a=123, b=456, c=56088
-...
-[Result] Securely computed x*y = 205231271881
 
 
 ## Workflow Diagram
